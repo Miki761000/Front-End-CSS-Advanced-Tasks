@@ -1,0 +1,23 @@
+.gradient-animation:before,
+.gradient-animation:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gradient-animation:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 250, 0.9), rgba(0, 0, 250, 0.1));
+}
+
+.gradient-animation:after {
+    background: linear-gradient(to bottom, rgba(255, 190, 0, 0.9), rgba(255, 190, 0, 0.1));
+    transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+.gradient-animation:hover:after {
+    opacity: 0;
+}

@@ -1,0 +1,27 @@
+body {
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+article {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: var(--primary-fz-h1);
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+h3 {
+    font-size: var(--primary-fz-h3);
+    padding: 1rem 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: var(--primary-fz-p);
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 20vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    background-color: darkorange;
+    width: 150px;
+    height: 150px;
+    animation: circle 1.5s alternate ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes circle {
+    from {}
+    to {
+        border-radius: 50%;
+        background-color: #f00;
+        transform: scale(0.6);
+    }
+}
