@@ -1,0 +1,29 @@
+body {
+    background: #FFF;
+    padding: 2rem;
+    margin: 0;
+    font-size: 14px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.item {
+    background: black;
+    color: #FFF;
+    border-radius: 0.15rem;
+    padding: 1rem;
+}
+
+header,
+footer {
+    grid-column: 1 / -1;
+}
+
+main {
+    grid-column: 1 / span 3;
+}
